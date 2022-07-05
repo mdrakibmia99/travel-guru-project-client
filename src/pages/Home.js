@@ -6,11 +6,11 @@ import TravelSelection from '../components/TravelSelection';
 const Home = () => {
     return (
         <div className='bg-image-overlay'>
-            <Container maxWidth="lg">
-                <Header />
-                <TravelSelection />
-            </Container>
-        </div>
+        <Container maxWidth="lg">
+            <Header />
+            <TravelSelection />
+        </Container>
+    </div>
     );
 };
 

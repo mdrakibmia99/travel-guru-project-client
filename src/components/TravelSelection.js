@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import useTravels from '../utilities/useTravels';
 import '../App.css';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
@@ -64,9 +64,8 @@ const TravelSelection = () => {
                             />)
                         }
                     </div>
-                </div>
-            </div>
-            <div
+                    
+                    <div
                 style={{ textAlign: "center" }}
             >
                 <Button variant="text" style={{
@@ -98,6 +97,10 @@ const TravelSelection = () => {
                     />
                 </Button>
             </div>
+                </div>
+                
+            </div>
+            
         </section>
     );
 };
