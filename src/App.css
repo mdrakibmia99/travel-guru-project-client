@@ -167,3 +167,6 @@ font-family: 'Montserrat', sans-serif; */
   top: 50%;
   right: 0;
 }
+#search::placeholder{
+  font-family: 'Montserrat', sans-serif;
+}
