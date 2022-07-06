@@ -142,3 +142,28 @@ font-family: 'Montserrat', sans-serif; */
     margin-bottom: 1rem;
   }
 }
+/* divider between manual and social login */
+#alternative-divider {
+  position: relative;
+  display: block;
+}
+
+#alternative-divider::before {
+  content: '';
+  position: absolute;
+  background-color: #ffa939;
+  width: 45%;
+  height: 2px;
+  top: 50%;
+  left: 0;
+}
+
+#alternative-divider::after {
+  content: '';
+  position: absolute;
+  background-color: #ffa939;
+  width: 45%;
+  height: 2px;
+  top: 50%;
+  right: 0;
+}
