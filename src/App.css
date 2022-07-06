@@ -131,3 +131,7 @@ font-family: 'Montserrat', sans-serif; */
   margin-top: 145px;
   column-gap: 3rem;
 }
+.rdp-day_selected:not([aria-disabled='true']) {
+  color: white;
+  background-color: #ffa939 !important;
+}
