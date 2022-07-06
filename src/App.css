@@ -122,3 +122,12 @@ font-family: 'Montserrat', sans-serif; */
     margin-top: 1rem;
   }
 }
+
+/* booking section */
+#booking-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin-top: 145px;
+  column-gap: 3rem;
+}
